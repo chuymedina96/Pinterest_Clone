@@ -7565,3 +7565,990 @@ Processing by PinsController#index as HTML
   [1m[35mPin Load (0.4ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
   Rendered pins/index.html.haml within layouts/application (7.8ms)
 Completed 200 OK in 140ms (Views: 139.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/9" for 98.227.218.35 at 2016-03-02 20:59:04 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mPin Load (1.4ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 200ms (Views: 197.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 20:59:07 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.5ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 104ms (Views: 102.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:01:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  Rendered pins/index.html.haml within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/pins/index.html.haml:2: syntax error, unexpected ',', expecting ')'
+...rue_false(( link_to (image_tag, pin.image.url(:medium)
+...                               ^):
+  app/views/pins/index.html.haml:2: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (127.8ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:02:00 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  Rendered pins/index.html.haml within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/pins/index.html.haml:3: syntax error, unexpected ';', expecting ')'
+));}\n<h2>#{_hamlout.adjust_tabs...
+   ^
+/home/ubuntu/workspace/app/views/pins/index.html.haml:4: syntax error, unexpected ')'
+));}</h2>\n", 0, false);end;::...
+ ^
+/home/ubuntu/workspace/app/views/pins/index.html.haml:4: unterminated regexp meets end of file):
+  app/views/pins/index.html.haml:3: syntax error, unexpected ';', expecting ')'
+  app/views/pins/index.html.haml:4: syntax error, unexpected ')'
+  app/views/pins/index.html.haml:4: unterminated regexp meets end of file
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.1ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:02:49 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.4ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (5.1ms)
+Completed 200 OK in 95ms (Views: 93.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-0c81e2bfbfd877dea9bd6e3035ab1a9860bc2d0a7d17503c2d2df6d3755dcd29.css?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:02:50 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (132.9ms)
+
+
+Started GET "/pins/9" for 98.227.218.35 at 2016-03-02 21:04:01 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 187ms (Views: 185.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pins/9/edit" for 98.227.218.35 at 2016-03-02 21:04:03 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered pins/_form.html.haml (29.7ms)
+  Rendered pins/edit.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 138ms (Views: 135.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/9" for 98.227.218.35 at 2016-03-02 21:04:06 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 86ms (Views: 83.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:04:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (4.7ms)
+Completed 200 OK in 89ms (Views: 87.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:04:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (139.0ms)
+
+
+Started GET "/pins/7" for 98.227.218.35 at 2016-03-02 21:04:09 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 107ms (Views: 105.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:04:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (129.0ms)
+
+
+Started GET "/pins/7/edit" for 98.227.218.35 at 2016-03-02 21:04:11 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered pins/_form.html.haml (15.2ms)
+  Rendered pins/edit.html.haml within layouts/application (18.0ms)
+Completed 200 OK in 119ms (Views: 117.7ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/pins/7" for 98.227.218.35 at 2016-03-02 21:04:37 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RWUwCChf4DIGcpXcTh08+iDtZ35AkUokKI5jgJgRKOVAxnJXUoAnfxm4Iiu+5xbkvCXzDDm/Gvi+qKnt4T1law==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f6734bb7180 @tempfile=#<Tempfile:/home/ubuntu/workspace/RackMultipart20160302-1164-2ky2nz.jpg>, @original_filename="hand_holding_-_zoomed_in.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"hand_holding_-_zoomed_in.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"Google contact lens", "description"=>"fefneowqnfoiewq fewqfnewq fwequf9e wqf ewu9qfew qfue wqfu9ewqu9fnewuq9fewf ewpafew fpw afp9ewq9fp ewfewq fewqf ewqfnwiqofew fagfo [0sagw"}, "commit"=>"Update Pin", "id"=>"7"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/home/ubuntu/workspace/abc44b1a243519653ccb696e087ee57d20160302-1164-1viyduc.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/home/ubuntu/workspace/abc44b1a243519653ccb696e087ee57d20160302-1164-1w4krf6.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/home/ubuntu/workspace/abc44b1a243519653ccb696e087ee57d20160302-1164-1w4krf6.jpg[0]'
+Command :: convert '/home/ubuntu/workspace/abc44b1a243519653ccb696e087ee57d20160302-1164-1w4krf6.jpg[0]' -auto-orient -resize "300x300>" '/home/ubuntu/workspace/c8da61fb8877d9761a09f882f56652d920160302-1164-hbf7j9'
+Command :: file -b --mime '/home/ubuntu/workspace/abc44b1a243519653ccb696e087ee57d20160302-1164-1ve8rzm.jpg'
+  [1m[35mSQL (0.7ms)[0m  UPDATE "pins" SET "title" = ?, "image_file_name" = ?, "image_content_type" = ?, "image_file_size" = ?, "image_updated_at" = ?, "updated_at" = ? WHERE "pins"."id" = ?  [["title", "Google contact lens"], ["image_file_name", "hand_holding_-_zoomed_in.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 130496], ["image_updated_at", "2016-03-02 21:04:37.338035"], ["updated_at", "2016-03-02 21:04:37.910295"], ["id", 7]]
+  [1m[36m (13.8ms)[0m  [1mcommit transaction[0m
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/pins/7
+Completed 302 Found in 627ms (ActiveRecord: 14.8ms)
+
+
+Started GET "/pins/7" for 98.227.218.35 at 2016-03-02 21:04:38 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 96ms (Views: 94.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:04:41 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 160ms (Views: 158.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:04:42 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (90.0ms)
+
+
+Started GET "/pins/6" for 98.227.218.35 at 2016-03-02 21:04:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 119ms (Views: 117.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:04:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (18.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (153.2ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:04:57 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 127ms (Views: 125.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:04:58 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (143.6ms)
+
+
+Started GET "/pins/6" for 98.227.218.35 at 2016-03-02 21:05:00 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (123.1ms)
+Completed 200 OK in 280ms (Views: 277.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:05:01 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (128.6ms)
+
+
+Started GET "/pins/6/edit" for 98.227.218.35 at 2016-03-02 21:05:02 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered pins/_form.html.haml (14.8ms)
+  Rendered pins/edit.html.haml within layouts/application (146.1ms)
+Completed 200 OK in 245ms (Views: 244.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/pins/6" for 98.227.218.35 at 2016-03-02 21:05:26 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mExAu8Q6MU6RXSyO0lBuJceRZMHy+aF+dv4Nip6ff5yd7wLkvuX2A46Xm3kiqkQ7W1nws4vX8aLg2Mfn57MyEg==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f6735a75d70 @tempfile=#<Tempfile:/home/ubuntu/workspace/RackMultipart20160302-1164-1o0ws9v.jpg>, @original_filename="_88531937_031765724.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"_88531937_031765724.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"Scott Kelly touching back down", "description"=>"dhfhdsaufd sfdiphfduafd pfhndspa fdpsanfdpsa fpds fsahfdp saf"}, "commit"=>"Update Pin", "id"=>"6"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/home/ubuntu/workspace/e455ba571d1768dd549d6244d4e4ddfb20160302-1164-1xlegrp.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/home/ubuntu/workspace/e455ba571d1768dd549d6244d4e4ddfb20160302-1164-go7k3u.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/home/ubuntu/workspace/e455ba571d1768dd549d6244d4e4ddfb20160302-1164-go7k3u.jpg[0]'
+Command :: convert '/home/ubuntu/workspace/e455ba571d1768dd549d6244d4e4ddfb20160302-1164-go7k3u.jpg[0]' -auto-orient -resize "300x300>" '/home/ubuntu/workspace/a32335e147f3e87176ac00aae798d4bf20160302-1164-1by094t'
+Command :: file -b --mime '/home/ubuntu/workspace/e455ba571d1768dd549d6244d4e4ddfb20160302-1164-1yzu913.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "pins" SET "title" = ?, "description" = ?, "image_file_name" = ?, "image_content_type" = ?, "image_file_size" = ?, "image_updated_at" = ?, "updated_at" = ? WHERE "pins"."id" = ?[0m  [["title", "Scott Kelly touching back down"], ["description", "dhfhdsaufd sfdiphfduafd pfhndspa fdpsanfdpsa fpds fsahfdp saf"], ["image_file_name", "_88531937_031765724.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 34973], ["image_updated_at", "2016-03-02 21:05:26.682238"], ["updated_at", "2016-03-02 21:05:26.768238"], ["id", 6]]
+  [1m[35m (12.3ms)[0m  commit transaction
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/pins/6
+Completed 302 Found in 118ms (ActiveRecord: 13.0ms)
+
+
+Started GET "/pins/6" for 98.227.218.35 at 2016-03-02 21:05:26 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 84ms (Views: 82.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:05:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 163ms (Views: 161.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:05:31 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (125.4ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 21:05:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 177ms (Views: 175.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:05:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (187.6ms)
+
+
+Started GET "/pins/5/edit" for 98.227.218.35 at 2016-03-02 21:05:47 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/_form.html.haml (14.9ms)
+  Rendered pins/edit.html.haml within layouts/application (17.8ms)
+Completed 200 OK in 177ms (Views: 175.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/pins/5" for 98.227.218.35 at 2016-03-02 21:06:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NjEP6gE2Gkom3RSOcveBAKhKz1CDtjU1h6/aplbPHyEzkk21e+ndBzkXo3mCDaseNIJbIvqYZekRiRDLL+NSrw==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f6736a52248 @tempfile=#<Tempfile:/home/ubuntu/workspace/RackMultipart20160302-1164-i5uzr4.jpg>, @original_filename="iss-548328_1920.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"iss-548328_1920.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"Space walking it", "description"=>"fnewifjeiwhqfiewqhfewqfewfhewpqfhe8wqfh89ewpq feowjfiew fe9wnqf ewqfn9ew fqe9wpfd jwf9df dsafdsafds afdsf dsaf9dsaf9dsafjdwf ds9afd sa9fds afd9saf dsafs"}, "commit"=>"Update Pin", "id"=>"5"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/home/ubuntu/workspace/458d5b785dd1dd0605f53a8d242ddc1f20160302-1164-1yzjhkm.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/home/ubuntu/workspace/458d5b785dd1dd0605f53a8d242ddc1f20160302-1164-ay3fp8.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/home/ubuntu/workspace/458d5b785dd1dd0605f53a8d242ddc1f20160302-1164-ay3fp8.jpg[0]'
+Command :: convert '/home/ubuntu/workspace/458d5b785dd1dd0605f53a8d242ddc1f20160302-1164-ay3fp8.jpg[0]' -auto-orient -resize "300x300>" '/home/ubuntu/workspace/50c0cb35906d80c1be53ed1d94972bbe20160302-1164-3zlg2g'
+Command :: file -b --mime '/home/ubuntu/workspace/458d5b785dd1dd0605f53a8d242ddc1f20160302-1164-kiho8u.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "pins" SET "title" = ?, "description" = ?, "image_file_name" = ?, "image_content_type" = ?, "image_file_size" = ?, "image_updated_at" = ?, "updated_at" = ? WHERE "pins"."id" = ?[0m  [["title", "Space walking it"], ["description", "fnewifjeiwhqfiewqhfewqfewfhewpqfhe8wqfh89ewpq feowjfiew fe9wnqf ewqfn9ew fqe9wpfd jwf9df dsafdsafds afdsf dsaf9dsaf9dsafjdwf ds9afd sa9fds afd9saf dsafs"], ["image_file_name", "iss-548328_1920.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 722121], ["image_updated_at", "2016-03-02 21:06:24.485413"], ["updated_at", "2016-03-02 21:06:24.733480"], ["id", 5]]
+  [1m[35m (17.4ms)[0m  commit transaction
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/pins/5
+Completed 302 Found in 291ms (ActiveRecord: 18.2ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 21:06:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 86ms (Views: 84.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:06:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.6ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 128ms (Views: 126.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:06:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (124.5ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 21:06:42 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPin Load (0.3ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 182ms (Views: 180.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/images/medium/missing.png" for 98.227.218.35 at 2016-03-02 21:06:42 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (135.4ms)
+
+
+Started GET "/pins/4/edit" for 98.227.218.35 at 2016-03-02 21:06:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered pins/_form.html.haml (12.8ms)
+  Rendered pins/edit.html.haml within layouts/application (15.1ms)
+Completed 200 OK in 99ms (Views: 97.4ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/pins/4" for 98.227.218.35 at 2016-03-02 21:07:37 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dTmLZMhmUiyCoSLWq7Jhdx02xNkgIJ/k5LKXI5Nu3LZwmsk7srmVYZ1rlSFbSEtpgf5Qq1kOzzhylF1O6kKROA==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f6734e86410 @tempfile=#<Tempfile:/home/ubuntu/workspace/RackMultipart20160302-1164-1ei7fxm.jpg>, @original_filename="maxresdefault.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"maxresdefault.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"Space X", "description"=>"Small batch fixie farm-to-table ethical, food truck trust fund tilde gochujang raw denim yuccie cold-pressed. Lumbersexual crucifix austin, bespoke taxidermy tousled tilde green juice leggings. Disrupt mumblecore health goth, vegan craft beer green juice tote bag keffiyeh heirloom helvetica letterpress. Truffaut hammock church-key pour-over, biodiesel man bun williamsburg literally normcore mumblecore dreamcatcher. Celiac flannel mlkshk selfies messenger bag, stumptown dreamcatcher portland tumblr brooklyn VHS. Ramps VHS authentic DIY, portland microdosing pork belly drinking vinegar thundercats chillwave health goth keytar umami synth. Yr cardigan kickstarter intelligentsia fap, yuccie blog neutra."}, "commit"=>"Update Pin", "id"=>"4"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/home/ubuntu/workspace/a43683d33b40f413228d54e3c6ed4a2f20160302-1164-1jxe7sx.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/home/ubuntu/workspace/a43683d33b40f413228d54e3c6ed4a2f20160302-1164-qrvhgv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/home/ubuntu/workspace/a43683d33b40f413228d54e3c6ed4a2f20160302-1164-qrvhgv.jpg[0]'
+Command :: convert '/home/ubuntu/workspace/a43683d33b40f413228d54e3c6ed4a2f20160302-1164-qrvhgv.jpg[0]' -auto-orient -resize "300x300>" '/home/ubuntu/workspace/d00af8a62321c7440fa27217ab32fe7520160302-1164-p88dew'
+Command :: file -b --mime '/home/ubuntu/workspace/a43683d33b40f413228d54e3c6ed4a2f20160302-1164-p56h54.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "pins" SET "title" = ?, "image_file_name" = ?, "image_content_type" = ?, "image_file_size" = ?, "image_updated_at" = ?, "updated_at" = ? WHERE "pins"."id" = ?[0m  [["title", "Space X"], ["image_file_name", "maxresdefault.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 69831], ["image_updated_at", "2016-03-02 21:07:37.525186"], ["updated_at", "2016-03-02 21:07:37.764071"], ["id", 4]]
+  [1m[35m (11.1ms)[0m  commit transaction
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/pins/4
+Completed 302 Found in 275ms (ActiveRecord: 11.8ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 21:07:37 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 113ms (Views: 111.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:07:40 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 91ms (Views: 89.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/6" for 98.227.218.35 at 2016-03-02 21:08:22 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 86ms (Views: 84.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:08:26 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 271ms (Views: 269.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:09:23 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (179.6ms)
+Completed 200 OK in 282ms (Views: 280.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-0c81e2bfbfd877dea9bd6e3035ab1a9860bc2d0a7d17503c2d2df6d3755dcd29.css?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 98.227.218.35 at 2016-03-02 21:09:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pins/7" for 98.227.218.35 at 2016-03-02 21:09:26 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 98ms (Views: 96.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/7/edit" for 98.227.218.35 at 2016-03-02 21:09:27 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered pins/_form.html.haml (31.5ms)
+  Rendered pins/edit.html.haml within layouts/application (37.8ms)
+Completed 200 OK in 214ms (Views: 212.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 21:09:31 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.8ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 108ms (Views: 105.5ms | ActiveRecord: 0.8ms)
