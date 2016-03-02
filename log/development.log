@@ -1025,3 +1025,1974 @@ Processing by PinsController#index as HTML
   [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
   Rendered pins/index.html.haml within layouts/application (188.6ms)
 Completed 200 OK in 210ms (Views: 209.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-01 23:29:23 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.6ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 39ms (Views: 34.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 98.227.218.35 at 2016-03-01 23:29:23 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 98.227.218.35 at 2016-03-01 23:29:23 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 98.227.218.35 at 2016-03-01 23:29:23 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 98.227.218.35 at 2016-03-01 23:29:23 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 98.227.218.35 at 2016-03-01 23:29:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.227.218.35 at 2016-03-01 23:29:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 98.227.218.35 at 2016-03-01 23:29:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pins/3" for 98.227.218.35 at 2016-03-01 23:29:25 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPin Load (0.3ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered pins/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-01 23:29:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pins/1" for 98.227.218.35 at 2016-03-01 23:29:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/pins/1" for 98.227.218.35 at 2016-03-01 23:29:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WLM5DujVL7cfQpaZVePFTxZbX1hbWLpyvpQJ9REB/47TZPiK58QV99skX6CKE0fwFyVEqzFSCsne9t0l0OitBA==", "id"=>"1"}
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "pins" WHERE "pins"."id" = ?[0m  [["id", 1]]
+  [1m[35m (10.8ms)[0m  commit transaction
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/
+Completed 302 Found in 16ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-01 23:29:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/2" for 98.227.218.35 at 2016-03-01 23:29:57 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pins/show.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/pins/2" for 98.227.218.35 at 2016-03-01 23:30:02 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"l35DQRcw9GPmzzLZFmmqH8qbBFjO+BLtgGpVRfEt9pscqYLFGCHOIyKp++DJmSigy+Ufq6TyolbgCIGVMMSkEQ==", "id"=>"2"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "pins" WHERE "pins"."id" = ?[0m  [["id", 2]]
+  [1m[35m (11.2ms)[0m  commit transaction
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/
+Completed 302 Found in 14ms (ActiveRecord: 11.8ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-01 23:30:03 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/3" for 98.227.218.35 at 2016-03-01 23:31:06 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered pins/show.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/3/edit" for 98.227.218.35 at 2016-03-01 23:31:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered pins/_form.html.haml (12.5ms)
+  Rendered pins/edit.html.haml within layouts/application (15.5ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/pins/3" for 98.227.218.35 at 2016-03-01 23:31:20 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fIOjf/6bhJcyacDqKzjYdWNCEJOY7Fg/+IO8RdKXcjX3VGL78Yq+1/YPCdP0yFrKYjwLYPLm6ISY4WiVE34gvw==", "pin"=>{"title"=>"Tesing again2", "description"=>"Small batch fixie farm-to-table ethical, food truck trust fund tilde gochujang raw denim yuccie cold-pressed. Lumbersexual crucifix austin, bespoke taxidermy tousled tilde green juice leggings. Disrupt mumblecore health goth, vegan craft beer green juice tote bag keffiyeh heirloom helvetica letterpress. Truffaut hammock church-key pour-over, biodiesel man bun williamsburg literally normcore mumblecore dreamcatcher. Celiac flannel mlkshk selfies messenger bag, stumptown dreamcatcher portland tumblr brooklyn VHS. Ramps VHS authentic DIY, portland microdosing pork belly drinking vinegar thundercats chillwave health goth keytar umami synth. Yr cardigan kickstarter intelligentsia fap, yuccie blog neutra."}, "commit"=>"Update Pin", "id"=>"3"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/pins/3
+Completed 302 Found in 41ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/pins/3" for 98.227.218.35 at 2016-03-01 23:31:20 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered pins/show.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-01 23:31:23 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.4ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/3" for 98.227.218.35 at 2016-03-01 23:31:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered pins/show.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/pins/3" for 98.227.218.35 at 2016-03-01 23:31:28 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"6wqi6C0+fQsbXQ+VhyM4vZinGx64A0DW6HSTMVmbvmZg3WNsIi9HS987xqxY07oCmdkA7dIJ8G2IFkfhmHLs7A==", "id"=>"3"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 3]]
+  [1m[36m (132.2ms)[0m  [1mcommit transaction[0m
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/
+Completed 302 Found in 137ms (ActiveRecord: 132.7ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-01 23:31:29 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.4ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-01 23:31:34 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  Rendered pins/_form.html.haml (12.2ms)
+  Rendered pins/new.html.haml within layouts/application (14.4ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pins" for 98.227.218.35 at 2016-03-01 23:31:46 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MSSGZzKFTiKvBHf5tGXQ76/zOxcVcbZTu+2dZNlTQ8W680fjPZR0YmtivsBrlVJQro0g5H97Bujbj0m0GLoRTw==", "pin"=>{"title"=>"New pin is going to be awesome", "description"=>"Small batch fixie farm-to-table ethical, food truck trust fund tilde gochujang raw denim yuccie cold-pressed. Lumbersexual crucifix austin, bespoke taxidermy tousled tilde green juice leggings. Disrupt mumblecore health goth, vegan craft beer green juice tote bag keffiyeh heirloom helvetica letterpress. Truffaut hammock church-key pour-over, biodiesel man bun williamsburg literally normcore mumblecore dreamcatcher. Celiac flannel mlkshk selfies messenger bag, stumptown dreamcatcher portland tumblr brooklyn VHS. Ramps VHS authentic DIY, portland microdosing pork belly drinking vinegar thundercats chillwave health goth keytar umami synth. Yr cardigan kickstarter intelligentsia fap, yuccie blog neutra."}, "commit"=>"Create Pin"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "pins" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "New pin is going to be awesome"], ["description", "Small batch fixie farm-to-table ethical, food truck trust fund tilde gochujang raw denim yuccie cold-pressed. Lumbersexual crucifix austin, bespoke taxidermy tousled tilde green juice leggings. Disrupt mumblecore health goth, vegan craft beer green juice tote bag keffiyeh heirloom helvetica letterpress. Truffaut hammock church-key pour-over, biodiesel man bun williamsburg literally normcore mumblecore dreamcatcher. Celiac flannel mlkshk selfies messenger bag, stumptown dreamcatcher portland tumblr brooklyn VHS. Ramps VHS authentic DIY, portland microdosing pork belly drinking vinegar thundercats chillwave health goth keytar umami synth. Yr cardigan kickstarter intelligentsia fap, yuccie blog neutra."], ["created_at", "2016-03-01 23:31:46.608308"], ["updated_at", "2016-03-01 23:31:46.608308"]]
+  [1m[36m (14.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/pins/4
+Completed 302 Found in 19ms (ActiveRecord: 14.7ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-01 23:31:46 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered pins/show.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-01 23:31:48 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-01 23:34:09 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 98.227.218.35 at 2016-03-01 23:34:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 98.227.218.35 at 2016-03-01 23:34:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 98.227.218.35 at 2016-03-01 23:34:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 98.227.218.35 at 2016-03-01 23:34:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.227.218.35 at 2016-03-01 23:34:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 98.227.218.35 at 2016-03-01 23:34:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 98.227.218.35 at 2016-03-01 23:34:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-01 23:34:12 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  Rendered pins/_form.html.haml (9.2ms)
+  Rendered pins/new.html.haml within layouts/application (13.2ms)
+Completed 200 OK in 142ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-01 23:44:42 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-01 23:45:03 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  Rendered pins/_form.html.haml (8.7ms)
+  Rendered pins/new.html.haml within layouts/application (11.2ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pins" for 98.227.218.35 at 2016-03-01 23:45:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TgmZACmnwhhWW4Qln+c6FCXiAw7gRp7TMFi1QvR5UjbF3liEJrb4WJI9TRxAF7irJJwY/YpMLmhQOmGSNZAAvA==", "pin"=>{"title"=>"fweifoenwifw", "description"=>"fnewifjeiwhqfiewqhfewqfewfhewpqfhe8wqfh89ewpq"}, "commit"=>"Create Pin"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pins" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "fweifoenwifw"], ["description", "fnewifjeiwhqfiewqhfewqfewfhewpqfhe8wqfh89ewpq"], ["created_at", "2016-03-01 23:45:10.665405"], ["updated_at", "2016-03-01 23:45:10.665405"]]
+  [1m[35m (9.7ms)[0m  commit transaction
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/pins/5
+Completed 302 Found in 14ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-01 23:45:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 20.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/5/edit" for 98.227.218.35 at 2016-03-01 23:45:16 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/_form.html.haml (6.0ms)
+  Rendered pins/edit.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-01 23:45:17 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-01 23:45:19 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 173.252.120.107 at 2016-03-02 00:11:13 +0000
+Cannot render console from 173.252.120.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as */*
+  [1m[36mPin Load (0.6ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (49.7ms)
+Completed 200 OK in 123ms (Views: 121.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 173.252.105.117 at 2016-03-02 00:11:15 +0000
+Cannot render console from 173.252.105.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as */*
+  [1m[35mPin Load (1.7ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 53ms (Views: 50.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 173.252.113.119 at 2016-03-02 00:11:15 +0000
+Cannot render console from 173.252.113.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as */*
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 173.252.105.112 at 2016-03-02 00:11:15 +0000
+Cannot render console from 173.252.105.112! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 173.252.105.116 at 2016-03-02 00:11:15 +0000
+Cannot render console from 173.252.105.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 173.252.105.116 at 2016-03-02 00:11:15 +0000
+Cannot render console from 173.252.105.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 173.252.105.119 at 2016-03-02 00:11:16 +0000
+Cannot render console from 173.252.105.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 173.252.105.119 at 2016-03-02 00:11:16 +0000
+Cannot render console from 173.252.105.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 205.197.242.187 at 2016-03-02 00:30:46 +0000
+Cannot render console from 205.197.242.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (1.5ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 205.197.242.187 at 2016-03-02 00:30:46 +0000
+Cannot render console from 205.197.242.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 205.197.242.187 at 2016-03-02 00:30:46 +0000
+Cannot render console from 205.197.242.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 205.197.242.187 at 2016-03-02 00:30:46 +0000
+Cannot render console from 205.197.242.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 205.197.242.187 at 2016-03-02 00:30:46 +0000
+Cannot render console from 205.197.242.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 205.197.242.187 at 2016-03-02 00:30:46 +0000
+Cannot render console from 205.197.242.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 205.197.242.187 at 2016-03-02 00:30:47 +0000
+Cannot render console from 205.197.242.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 205.197.242.187 at 2016-03-02 00:30:47 +0000
+Cannot render console from 205.197.242.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20160302003115)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (3.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160302003115"]]
+  [1m[36m (13.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 00:31:39 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+NoMethodError (undefined method `devise_for' for #<ActionDispatch::Routing::Mapper:0x007ff05335b858>):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.6ms)
+
+
+Started GET "/users/sign_up" for 98.227.218.35 at 2016-03-02 00:31:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.4ms)
+
+
+Started GET "/users/sign_up" for 98.227.218.35 at 2016-03-02 00:32:06 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (115.1ms)
+
+
+Started GET "/users/sign_up" for 98.227.218.35 at 2016-03-02 00:33:11 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (85.5ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 00:33:49 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (16.2ms)
+Completed 200 OK in 297ms (Views: 276.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/users/sign_up" for 98.227.218.35 at 2016-03-02 00:34:00 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (165.9ms)
+Completed 200 OK in 198ms (Views: 186.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/log_in" for 98.227.218.35 at 2016-03-02 00:34:12 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/users/log_in"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (123.6ms)
+
+
+Started GET "/users/sign_in" for 98.227.218.35 at 2016-03-02 00:34:22 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (18.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 70ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 00:34:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up" for 98.227.218.35 at 2016-03-02 00:37:03 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 73ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 98.227.218.35 at 2016-03-02 00:37:15 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ks4UEUrGfu+HkbeMD+7ZGwBembc8gyGiMI7gfjDaPzOhGdWVRddEr0P3frXQHlukASCCRFaJkRlQ7DSu8TNtuQ==", "user"=>{"email"=>"chuymedina96@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chuymedina96@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "chuymedina96@gmail.com"], ["encrypted_password", "$2a$10$hEtrcjS3jJ1yr/NH9olbzet.G8vHG2TcDjmtn5T8Tn1rTljVy5up2"], ["created_at", "2016-03-02 00:37:15.525325"], ["updated_at", "2016-03-02 00:37:15.525325"]]
+  [1m[36m (15.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2016-03-02 00:37:15.544734"], ["current_sign_in_at", "2016-03-02 00:37:15.544734"], ["last_sign_in_ip", "98.227.218.35"], ["current_sign_in_ip", "98.227.218.35"], ["sign_in_count", 1], ["updated_at", "2016-03-02 00:37:15.545893"], ["id", 1]]
+  [1m[35m (9.3ms)[0m  commit transaction
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/
+Completed 302 Found in 262ms (ActiveRecord: 26.8ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 00:37:15 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUserIdToPin (20160302004205)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mALTER TABLE "pins" ADD "user_id" integer[0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mCREATE  INDEX "index_pins_on_user_id" ON "pins" ("user_id")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160302004205"]]
+  [1m[36m (19.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_pins_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_pins_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+
+
+Started GET "/users/sign_up" for 98.227.218.35 at 2016-03-02 00:48:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 40ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 00:48:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (10.4ms)
+Completed 200 OK in 65ms (Views: 48.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_out" for 98.227.218.35 at 2016-03-02 00:48:36 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (130.8ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 00:48:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (1.1ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 194ms (Views: 191.2ms | ActiveRecord: 1.1ms)
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (2.9ms)[0m  [1mUPDATE "pins" SET "user_id" = ?, "updated_at" = ? WHERE "pins"."id" = ?[0m  [["user_id", 1], ["updated_at", "2016-03-02 01:07:33.130044"], ["id", 4]]
+  [1m[35m (15.6ms)[0m  commit transaction
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:08:13 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (19.7ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: %h1= @pin.title
+    2: %p= @pin.description
+    3: %p= @pin.user.email
+    4: = link_to "Back", root_path
+    5: = link_to "Edit", edit_pin_path
+    6: = link_to "Delete", pin_path, method: :delete, data: { confirm: "Are you sure you want to delete this pin?" }
+  app/views/pins/show.html.haml:3:in `_app_views_pins_show_html_haml___607998999950617925_70290550036360'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (125.4ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:08:14 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: %h1= @pin.title
+    2: %p= @pin.description
+    3: %p= @pin.user.email
+    4: = link_to "Back", root_path
+    5: = link_to "Edit", edit_pin_path
+    6: = link_to "Delete", pin_path, method: :delete, data: { confirm: "Are you sure you want to delete this pin?" }
+  app/views/pins/show.html.haml:3:in `_app_views_pins_show_html_haml___607998999950617925_37390720'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (113.3ms)
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_pins_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_pins_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:14:15 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (1.0ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (12.5ms)
+Completed 200 OK in 53ms (Views: 47.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 01:14:17 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPin Load (0.3ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (22.4ms)
+Completed 200 OK in 56ms (Views: 52.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:14:22 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.4ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:14:23 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: %h1= @pin.title
+    2: %p= @pin.description
+    3: %p= @pin.user.email
+    4: 
+    5: = link_to "Back", root_path
+    6: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:3:in `_app_views_pins_show_html_haml___607998999950617925_70290530916320'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (109.4ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:14:24 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: %h1= @pin.title
+    2: %p= @pin.description
+    3: %p= @pin.user.email
+    4: 
+    5: = link_to "Back", root_path
+    6: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:3:in `_app_views_pins_show_html_haml___607998999950617925_70290552846000'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (105.4ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:14:35 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: %h1= @pin.title
+    2: %p= @pin.description
+    3: %p= @pin.user.email
+    4: 
+    5: = link_to "Back", root_path
+    6: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:3:in `_app_views_pins_show_html_haml___607998999950617925_70290530916320'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (86.6ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:14:36 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: %h1= @pin.title
+    2: %p= @pin.description
+    3: %p= @pin.user.email
+    4: 
+    5: = link_to "Back", root_path
+    6: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:3:in `_app_views_pins_show_html_haml___607998999950617925_70290552846000'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.7ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 01:14:42 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:15:02 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-02 01:15:05 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  Rendered pins/_form.html.haml (12.0ms)
+  Rendered pins/new.html.haml within layouts/application (16.7ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pins" for 98.227.218.35 at 2016-03-02 01:15:12 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QHEJYuwAjCLxo7ZRAXahX0zgoAW1PHDUG0LsuyK0l8PLpsjm4xG2YjXFf2jehiPgTZ679t82wG97IDhr413FSQ==", "pin"=>{"title"=>"Tesign testing", "description"=>"wijfiwef"}, "commit"=>"Create Pin"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "pins" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Tesign testing"], ["description", "wijfiwef"], ["created_at", "2016-03-02 01:15:12.467794"], ["updated_at", "2016-03-02 01:15:12.467794"]]
+  [1m[35m (10.8ms)[0m  commit transaction
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/pins/6
+Completed 302 Found in 15ms (ActiveRecord: 11.5ms)
+
+
+Started GET "/pins/6" for 98.227.218.35 at 2016-03-02 01:15:12 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered pins/show.html.haml within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: %h1= @pin.title
+    2: %p= @pin.description
+    3: %p= @pin.user.email
+    4: 
+    5: = link_to "Back", root_path
+    6: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:3:in `_app_views_pins_show_html_haml___607998999950617925_70290552846000'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (109.8ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:15:23 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.4ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 01:15:44 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered pins/show.html.haml within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (There's no Ruby code for = to evaluate.):
+    1: %h1= @pin.title
+    2: %p= @pin.description
+    3: %p= 
+    4: Submitted by
+    5: @pin.user.email
+    6: 
+  app/views/pins/show.html.haml:3
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.4ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 01:15:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered pins/show.html.haml within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (There's no Ruby code for = to evaluate.):
+    1: %h1= @pin.title
+    2: %p= @pin.description
+    3: %p= 
+    4: Submitted by
+    5: @pin.user.email
+    6: 
+  app/views/pins/show.html.haml:3
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.4ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 01:15:56 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (34.6ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `by' for #<#<Class:0x007fdb949c6040>:0x007fdb96029990>):
+    1: %h1= @pin.title
+    2: %p= @pin.description
+    3: %p= Submitted by @pin.user.email
+    4: 
+    5: = link_to "Back", root_path
+    6: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:3:in `_app_views_pins_show_html_haml___607998999950617925_70290545656660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (108.2ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 01:16:20 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered pins/show.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 98.227.218.35 at 2016-03-02 01:16:20 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.227.218.35 at 2016-03-02 01:16:20 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 98.227.218.35 at 2016-03-02 01:16:20 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 98.227.218.35 at 2016-03-02 01:16:20 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 98.227.218.35 at 2016-03-02 01:16:20 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 98.227.218.35 at 2016-03-02 01:16:21 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 98.227.218.35 at 2016-03-02 01:16:21 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 01:16:44 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 98.227.218.35 at 2016-03-02 01:16:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 98.227.218.35 at 2016-03-02 01:16:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 98.227.218.35 at 2016-03-02 01:16:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.227.218.35 at 2016-03-02 01:16:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 98.227.218.35 at 2016-03-02 01:16:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 98.227.218.35 at 2016-03-02 01:16:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 98.227.218.35 at 2016-03-02 01:16:45 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:16:51 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.4ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 170ms (Views: 168.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 01:16:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:16:59 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.5ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:16:59 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.4ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.4ms)
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" DESC LIMIT 1[0m
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:18:38 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 32ms (Views: 26.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 98.227.218.35 at 2016-03-02 01:18:39 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 98.227.218.35 at 2016-03-02 01:18:40 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 98.227.218.35 at 2016-03-02 01:18:40 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 98.227.218.35 at 2016-03-02 01:18:40 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.227.218.35 at 2016-03-02 01:18:40 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 98.227.218.35 at 2016-03-02 01:18:40 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 98.227.218.35 at 2016-03-02 01:18:40 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:18:41 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: %p= @pin.description
+    3: %p 
+    4: Submitted by 
+    5: = @pin.user.email
+    6: 
+    7: = link_to "Back", root_path
+    8: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:5:in `_app_views_pins_show_html_haml___607998999950617925_70290554470460'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.5ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:18:42 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.1ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: %p= @pin.description
+    3: %p 
+    4: Submitted by 
+    5: = @pin.user.email
+    6: 
+    7: = link_to "Back", root_path
+    8: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:5:in `_app_views_pins_show_html_haml___607998999950617925_70290550259140'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.8ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-02 01:18:49 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.6ms)
+
+NoMethodError (undefined method `Pins' for #<User:0x007fdb97c16270>
+Did you mean?  pins
+               pins=):
+  app/controllers/pins_controller.rb:10:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.5ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-02 01:18:49 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms)
+
+NoMethodError (undefined method `Pins' for #<User:0x007fdb84c469b0>
+Did you mean?  pins
+               pins=):
+  app/controllers/pins_controller.rb:10:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.4ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-02 01:19:41 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.1ms)
+
+NoMethodError (undefined method `Pins' for #<User:0x007fdb953d8f88>
+Did you mean?  pins
+               pins=):
+  app/controllers/pins_controller.rb:10:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (94.4ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:20:00 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 41ms (Views: 36.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:20:01 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:20:03 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: %p= @pin.description
+    3: %p 
+    4: Submitted by 
+    5: = @pin.user.email
+    6: 
+    7: = link_to "Back", root_path
+    8: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:5:in `_app_views_pins_show_html_haml___607998999950617925_70290554470460'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (86.2ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:20:03 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: %p= @pin.description
+    3: %p 
+    4: Submitted by 
+    5: = @pin.user.email
+    6: 
+    7: = link_to "Back", root_path
+    8: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:5:in `_app_views_pins_show_html_haml___607998999950617925_70290550259140'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (88.1ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-02 01:20:07 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+NoMethodError (undefined method `Pins' for #<User:0x007fdb9788ea30>
+Did you mean?  pins
+               pins=):
+  app/controllers/pins_controller.rb:10:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.3ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-02 01:20:07 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+NoMethodError (undefined method `Pins' for #<User:0x007fdb842ae678>
+Did you mean?  pins
+               pins=):
+  app/controllers/pins_controller.rb:10:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.8ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-02 01:21:07 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pins/_form.html.haml (8.8ms)
+  Rendered pins/new.html.haml within layouts/application (11.9ms)
+Completed 200 OK in 79ms (Views: 44.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 98.227.218.35 at 2016-03-02 01:21:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 98.227.218.35 at 2016-03-02 01:21:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 98.227.218.35 at 2016-03-02 01:21:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 98.227.218.35 at 2016-03-02 01:21:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.227.218.35 at 2016-03-02 01:21:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 98.227.218.35 at 2016-03-02 01:21:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 98.227.218.35 at 2016-03-02 01:21:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:21:10 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:21:11 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: %p= @pin.description
+    3: %p 
+    4: Submitted by 
+    5: = @pin.user.email
+    6: 
+    7: = link_to "Back", root_path
+    8: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:5:in `_app_views_pins_show_html_haml___607998999950617925_70290554470460'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (113.4ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:21:11 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: %p= @pin.description
+    3: %p 
+    4: Submitted by 
+    5: = @pin.user.email
+    6: 
+    7: = link_to "Back", root_path
+    8: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:5:in `_app_views_pins_show_html_haml___607998999950617925_70290550259140'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (117.9ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-02 01:21:17 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pins/_form.html.haml (7.7ms)
+  Rendered pins/new.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 49ms (Views: 46.6ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/pins" for 98.227.218.35 at 2016-03-02 01:21:28 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n89xYyz/33I919HgH9NNIGq3H+qhBjuohKDTyUt+Rp0UGLDnI+7lMvmxGNnAI8+fa8kEGcsMixPkwgcZipcUFw==", "pin"=>{"title"=>"tesing once again!!", "description"=>"fefneowqnfoiewq fewqfnewq fwequf9e wqf ewu9qfew qfue wqfu9ewqu9fnewuq9fewf ewpafew fpw afp9ewq9fp ewfewq fewqf ewqfnwiqofew fagfo [0sagw"}, "commit"=>"Create Pin"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "pins" ("title", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "tesing once again!!"], ["description", "fefneowqnfoiewq fewqfnewq fwequf9e wqf ewu9qfew qfue wqfu9ewqu9fnewuq9fewf ewpafew fpw afp9ewq9fp ewfewq fewqf ewqfnwiqofew fagfo [0sagw"], ["user_id", 1], ["created_at", "2016-03-02 01:21:28.943794"], ["updated_at", "2016-03-02 01:21:28.943794"]]
+  [1m[36m (25.8ms)[0m  [1mcommit transaction[0m
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/pins/7
+Completed 302 Found in 33ms (ActiveRecord: 26.8ms)
+
+
+Started GET "/pins/7" for 98.227.218.35 at 2016-03-02 01:21:29 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:21:32 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.6ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:23:56 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: %p= @pin.description
+    3: %p 
+    4: Submitted by 
+    5: = @pin.user.email
+    6: 
+    7: = link_to "Back", root_path
+    8: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:5:in `_app_views_pins_show_html_haml___607998999950617925_70290554470460'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (135.2ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:23:57 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/show.html.haml within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: %p= @pin.description
+    3: %p 
+    4: Submitted by 
+    5: = @pin.user.email
+    6: 
+    7: = link_to "Back", root_path
+    8: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:5:in `_app_views_pins_show_html_haml___607998999950617925_70290550259140'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.7ms)
+  [1m[35mPin Load (0.5ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "pins" SET "user_id" = ?, "updated_at" = ? WHERE "pins"."id" = ?[0m  [["user_id", 1], ["updated_at", "2016-03-02 01:24:26.427098"], ["id", 5]]
+  [1m[35m (9.0ms)[0m  commit transaction
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:24:29 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 98.227.218.35 at 2016-03-02 01:24:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 98.227.218.35 at 2016-03-02 01:24:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 98.227.218.35 at 2016-03-02 01:24:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 98.227.218.35 at 2016-03-02 01:24:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 98.227.218.35 at 2016-03-02 01:24:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 98.227.218.35 at 2016-03-02 01:24:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.227.218.35 at 2016-03-02 01:24:30 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:24:32 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/7" for 98.227.218.35 at 2016-03-02 01:24:34 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:24:36 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.6ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pins/6" for 98.227.218.35 at 2016-03-02 01:24:37 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered pins/show.html.haml within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: %p= @pin.description
+    3: %p 
+    4: Submitted by 
+    5: = @pin.user.email
+    6: 
+    7: = link_to "Back", root_path
+    8: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:5:in `_app_views_pins_show_html_haml___607998999950617925_70290554470460'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (105.5ms)
+
+
+Started GET "/pins/6" for 98.227.218.35 at 2016-03-02 01:24:37 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered pins/show.html.haml within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: %p= @pin.description
+    3: %p 
+    4: Submitted by 
+    5: = @pin.user.email
+    6: 
+    7: = link_to "Back", root_path
+    8: = link_to "Edit", edit_pin_path
+  app/views/pins/show.html.haml:5:in `_app_views_pins_show_html_haml___607998999950617925_70290550259140'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (110.9ms)
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "pins" SET "user_id" = ?, "updated_at" = ? WHERE "pins"."id" = ?[0m  [["user_id", 1], ["updated_at", "2016-03-02 01:25:50.377583"], ["id", 6]]
+  [1m[35m (9.3ms)[0m  commit transaction
+
+
+Started GET "/pins/6" for 98.227.218.35 at 2016-03-02 01:25:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 33ms (Views: 30.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/pins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 98.227.218.35 at 2016-03-02 01:25:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 98.227.218.35 at 2016-03-02 01:25:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 98.227.218.35 at 2016-03-02 01:25:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.227.218.35 at 2016-03-02 01:25:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 98.227.218.35 at 2016-03-02 01:25:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 98.227.218.35 at 2016-03-02 01:25:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 98.227.218.35 at 2016-03-02 01:25:55 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:25:57 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/7" for 98.227.218.35 at 2016-03-02 01:25:58 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 222ms (Views: 220.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:26:00 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.4ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 206ms (Views: 204.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/6" for 98.227.218.35 at 2016-03-02 01:26:01 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:26:02 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.6ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pins/5" for 98.227.218.35 at 2016-03-02 01:26:03 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 191ms (Views: 189.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:26:04 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pins/4" for 98.227.218.35 at 2016-03-02 01:26:05 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:26:06 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/new" for 98.227.218.35 at 2016-03-02 01:26:08 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pins/_form.html.haml (9.3ms)
+  Rendered pins/new.html.haml within layouts/application (11.4ms)
+Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/pins" for 98.227.218.35 at 2016-03-02 01:26:12 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U6r/AdLHK/yuRLM+OY2ZJRb7KKlf/3SH4NrY3PPaxU/YfT6F3dYRvGoiegfmfRuaF4UzWjX1xDyAuAwMMjOXxQ==", "pin"=>{"title"=>"dvfds", "description"=>"vfdvdf"}, "commit"=>"Create Pin"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "pins" ("title", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "dvfds"], ["description", "vfdvdf"], ["user_id", 1], ["created_at", "2016-03-02 01:26:12.355392"], ["updated_at", "2016-03-02 01:26:12.355392"]]
+  [1m[35m (7.3ms)[0m  commit transaction
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/pins/8
+Completed 302 Found in 15ms (ActiveRecord: 8.1ms)
+
+
+Started GET "/pins/8" for 98.227.218.35 at 2016-03-02 01:26:12 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:26:14 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT "pins".* FROM "pins"  ORDER BY created_at DESC[0m
+  Rendered pins/index.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pins/8" for 98.227.218.35 at 2016-03-02 01:26:15 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 171ms (Views: 169.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/pins/8" for 98.227.218.35 at 2016-03-02 01:26:21 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hRSbtS7x9SzvaAnaOrhVo0IbDCRE8nj7P8SQjonQY5wOw1oxIeDPbCsOwOPlSNccQ2UX1y74yEBfpkReSDkxFg==", "id"=>"8"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 8]]
+  [1m[36m (20.9ms)[0m  [1mcommit transaction[0m
+Redirected to https://pinterest-clone-chuymedina96.c9users.io/
+Completed 302 Found in 27ms (ActiveRecord: 21.7ms)
+
+
+Started GET "/" for 98.227.218.35 at 2016-03-02 01:26:21 +0000
+Cannot render console from 98.227.218.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"  ORDER BY created_at DESC
+  Rendered pins/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.3ms)
