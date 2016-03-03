@@ -1,0 +1,13 @@
+I"Ö(function() {
+  $(function() {
+    return $('#pins').imagesLoaded(function() {
+      $('#pins').masonry;
+      return {
+        itemSelector: '.box',
+        isFitWidth: true
+      };
+    });
+  });
+
+}).call(this);
+:ET
